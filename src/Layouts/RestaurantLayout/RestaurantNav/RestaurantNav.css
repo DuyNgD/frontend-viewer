@@ -1,0 +1,14 @@
+.restaurant-nav {
+  text-align: center;
+  background-color: white;
+  padding: 1rem 0;
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.restaurant-nav .navigation-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

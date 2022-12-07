@@ -1,0 +1,12 @@
+.form-preview-add {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.form-preview-add .label {
+  font-weight: bold;
+}
+.horizontal-reverse {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}

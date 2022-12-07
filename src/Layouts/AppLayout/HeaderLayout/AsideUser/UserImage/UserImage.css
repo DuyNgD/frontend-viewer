@@ -1,0 +1,45 @@
+.user-image {
+  width: 6rem;
+  height: 6rem;
+  border: var(--app-border);
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+}
+.user-image:hover .user-image-nav {
+  display: block;
+}
+.user-image > img {
+  border-radius: 50%;
+}
+.user-image-nav {
+  width: 100%;
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  background-color: grey;
+  display: none;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.9;
+}
+.user-image-nav .nav-item {
+  padding: 0.25rem 0;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.user-image-nav .nav-item:hover {
+  background-color: #4c4c4c;
+}
+.user-image-nav .nav-item label {
+  cursor: pointer;
+}
+.user-image-nav .nav-item input {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}

@@ -1,0 +1,15 @@
+aside {
+  position: fixed;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  animation-duration: 0.25s;
+  z-index: 999;
+}
+aside.left {
+  left: var(--app-aside-left);
+  animation-name: fadeInLeft;
+}
+aside.right {
+  right: var(--app-aside-right);
+  animation-name: fadeInRight;
+}

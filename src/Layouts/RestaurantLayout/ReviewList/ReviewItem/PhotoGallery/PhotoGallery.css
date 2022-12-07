@@ -1,0 +1,16 @@
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.photo-gallery > .media {
+  width: 9rem;
+  height: 10rem;
+  background-color: white;
+  border: var(--app-border);
+  transition: transform 0.2s linear;
+  cursor: pointer;
+}
+.photo-gallery > .media:hover {
+  transform: translateY(-0.5rem);
+}

@@ -1,0 +1,35 @@
+.review-item {
+  background-color: white;
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  transition: opacity 0.1s linear;
+}
+.review-item:hover {
+  opacity: 1 !important;
+}
+.review-item-header {
+  padding: 0.5rem;
+  border-bottom: var(--app-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-item-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  white-space: pre-line;
+  gap: 0.5rem;
+}
+.review-item-footer {
+  border-top: var(--app-border);
+  display: flex;
+  position: relative;
+}
+.review-item .item-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.review-item .item-comment {
+  word-break: break-all;
+}

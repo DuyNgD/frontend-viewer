@@ -1,0 +1,21 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+.tab-panel {
+  display: flex;
+  flex-direction: row;
+}
+.tab-panel .tab:first-child {
+  border-top-left-radius: var(--app-border-radius);
+}
+.tab-panel .tab:last-child {
+  border-top-right-radius: var(--app-border-radius);
+}
+.tab-content {
+  background-color: white;
+  border: var(--app-border);
+}
+.tab-content > div:nth-child(even) {
+  background-image: linear-gradient(to top, #e6e9f06b 0%, #eef1f56e 100%);
+}

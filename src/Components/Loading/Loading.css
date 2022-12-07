@@ -1,0 +1,12 @@
+.loading {
+  border-radius: 50%;
+  border: 0.8rem solid;
+  border-color: khaki transparent;
+  animation: loadingRotate 1s linear infinite;
+  -webkit-animation: loadingRotate 1s linear infinite;
+}
+@keyframes loadingRotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}

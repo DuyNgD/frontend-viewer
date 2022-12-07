@@ -1,0 +1,29 @@
+.restaurant-layout-skeleton {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.restaurant-layout-skeleton .restaurant-review-list {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.restaurant-layout-skeleton .restaurant-info-side {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+@media only screen and (max-width: 768px) {
+  .restaurant-layout-skeleton {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .restaurant-layout-skeleton .restaurant-review-list {
+    width: 100%;
+  }
+  .restaurant-layout-skeleton .restaurant-info-side {
+    width: 100%;
+  }
+}

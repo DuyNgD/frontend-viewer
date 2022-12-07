@@ -1,0 +1,7 @@
+.modal-footer {
+  padding: 0.5rem 1rem;
+  border-top: 1px solid grey;
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,13 @@
+.tab {
+  font-weight: bold;
+  background-color: white;
+  padding: 1rem;
+  border: var(--app-border);
+  cursor: pointer;
+}
+.tab:hover {
+  background-color: khaki;
+}
+.tab.active {
+  background-color: khaki;
+}

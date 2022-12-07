@@ -1,0 +1,21 @@
+.emoji-count {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.emoji-count .emoji-count-item {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emoji-count .emoji-count-item:hover {
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  cursor: pointer;
+}
+.emoji-count .emoji-count-item .emoji-icon {
+  font-size: 1.5rem;
+}

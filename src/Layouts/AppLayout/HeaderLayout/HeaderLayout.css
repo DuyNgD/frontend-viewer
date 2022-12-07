@@ -1,0 +1,48 @@
+.header-layout {
+  display: flex;
+  flex-direction: column;
+}
+.header-nav {
+  background-color: khaki;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header-user-login {
+  cursor: pointer;
+}
+.header-user-login .user-image {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+}
+.header-login:hover {
+  background-color: white;
+  border-radius: var(--app-border-radius);
+}
+.header-search {
+  padding: 2.5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.header-search .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .header-search {
+    padding: 2.5rem 2.5rem;
+  }
+}

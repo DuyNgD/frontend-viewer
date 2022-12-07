@@ -1,0 +1,13 @@
+.user-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.user-edit form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.user-edit form label {
+  font-weight: bold;
+}

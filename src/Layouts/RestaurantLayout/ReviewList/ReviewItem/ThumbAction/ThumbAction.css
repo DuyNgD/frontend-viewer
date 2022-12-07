@@ -1,0 +1,33 @@
+.review-item .item-thumb-btn {
+  width: 50%;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 0.25rem 0;
+  cursor: pointer;
+}
+.review-item .item-thumb-btn:active {
+  box-shadow: 0 1px 2px 1px rgb(0 0 0 / 50%) inset,
+    0px 0px 20px 20px rgb(0 0 0 / 10%) inset;
+}
+.review-item .item-thumb-btn:first-child {
+  border-right: var(--app-border);
+  border-bottom-left-radius: var(--app-border-radius);
+}
+.review-item .item-thumb-btn:last-child {
+  border-bottom-right-radius: var(--app-border-radius);
+}
+.review-item .item-thumb-btn.isLiked {
+  background-color: khaki;
+}
+.review-item .thumb-loading {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-bottom-left-radius: var(--app-border-radius);
+  border-bottom-right-radius: var(--app-border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}

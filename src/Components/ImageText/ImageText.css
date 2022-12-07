@@ -1,0 +1,17 @@
+.image-text {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+.image-text-image {
+  min-width: 1.5rem;
+  width: 1.5rem;
+  min-height: 1.5rem;
+  height: 1.5rem;
+}
+.image-text-text {
+  display: inline-flex;
+  align-items: center;
+}
+.image-text .bold {
+  font-weight: bold;
+}

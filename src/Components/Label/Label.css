@@ -1,0 +1,9 @@
+label {
+  display: flex;
+}
+label span {
+  font-weight: bold;
+}
+label .required {
+  color: #ff4d4f;
+}

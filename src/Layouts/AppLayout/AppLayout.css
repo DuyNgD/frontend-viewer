@@ -1,0 +1,14 @@
+:root {
+  /* Aside */
+  --app-aside-width: 5rem;
+  --app-aside-left: 0.5rem;
+  --app-aside-right: 0.5rem;
+  /* Color */
+  --app-color: Khaki;
+  --app-color-hover: PaleGoldenrod;
+  --app-color-active: DarkKhaki;
+  /* Border & Box-shadow */
+  --app-border: 1px solid #dadce0;
+  --app-border-radius: 0.3rem;
+  --app-box-shadow: 0 6px 8px rgb(0 0 0 / 15%);
+}

@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+  font-family: "Courier New", sans-serif;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+html {
+  font-size: 16px;
+  line-height: 1.25;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  color: #4a4a4a;
+  background-image: url("/public/images/Background_Dot_Grid.png");
+  background-color: #dddddd;
+  background-size: 48px;
+  background-position: center center;
+  margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}

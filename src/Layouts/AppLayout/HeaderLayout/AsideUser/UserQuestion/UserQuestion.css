@@ -1,0 +1,14 @@
+.user-question {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  overflow-y: auto;
+}
+.user-question .user-question-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.user-question .image-text span {
+  font-weight: bold;
+}

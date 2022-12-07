@@ -1,0 +1,9 @@
+.register-form {
+  background-color: white;
+  padding: 1rem;
+  border: var(--app-border);
+  border-radius: var(--app-border-radius);
+  box-shadow: var(--app-box-shadow);
+  display: flex;
+  justify-content: center;
+}
